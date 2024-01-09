@@ -1,6 +1,7 @@
 Instructions for the lab:
 
 Implement a Vacuum Cleaner Agent, according to the following figure:
+<img width="631" alt="Screenshot 2024-01-09 at 12 46 17 PM" src="https://github.com/asterli/artificial-intelligence/assets/93052992/5a88c971-4b57-4572-b37a-d2ff8c4e554e">
 
 Requirements:
 
