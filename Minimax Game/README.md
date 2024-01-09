@@ -1,4 +1,4 @@
-Instructions for the lab:
+**Instructions for the lab:**
 
 In this assignment, you will design a minimax algorithm for Pacman (player-MAX), who plays a
 game with three ghosts (player-MINs). The game tree will have MAX nodes and MIN nodes. In general, MAX
@@ -7,15 +7,14 @@ nodes will call a “max” function to collect the largest value from its succe
 
 Implement the following function in Class MinimaxAgent, in multiAgents.py
 
-def getAction(self, gameState):
-…
-this function will
-• recursively call a “max” function and a “min” function.
-• propagate the “leaf” node values to upper layers, until the root node is reached.
-• finally, return the best action for player-max (Pacman) at the root node
+def getAction(self, gameState):<br />
+…<br />
+this function will<br />
+• recursively call a “max” function and a “min” function.<br />
+• propagate the “leaf” node values to upper layers, until the root node is reached.<br />
+• finally, return the best action for player-max (Pacman) at the root node<br />
 
-Task: Minimax Agent
-
+**Task: Minimax Agent**<br />
 Now you will write an adversarial search agent in the provided MinimaxAgent class stub
 in multiAgents.py. Your minimax agent should work with any number of ghosts. In particular, your
 minimax tree will have multiple min layers (one for each ghost) for every max layer.
